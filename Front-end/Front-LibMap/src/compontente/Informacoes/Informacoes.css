@@ -1,0 +1,29 @@
+.informacoes h1 {
+  font-size: 3vh;
+  word-break: break-all;
+  background-color: var(--cor-primaria);
+  padding: 1vh 2vh;
+  border-radius: 1vh;
+  color: var(--cor-secundaria);
+}
+
+.informacoes {
+  text-align: start;
+  width: 55vw;
+}
+
+@media (orientation: portrait) {
+.informacoes h1 {
+  font-size: 5vw;
+  word-break: break-all;
+  background-color: var(--cor-primaria);
+  border-radius: 1vh;
+  color: var(--cor-secundaria);
+}
+
+.informacoes {
+  text-align: start;
+  width: 80vw;
+}
+
+}

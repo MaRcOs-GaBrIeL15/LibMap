@@ -1,0 +1,10 @@
+.Andar {
+  flex: 1;
+  border-bottom: 1vh solid var(--cor-secundaria);
+}
+
+.AndarEscolhido {
+  flex: 1;
+  background-color: var(--cor-primaria);
+  border-bottom: 1vh solid var(--cor-secundaria);
+}

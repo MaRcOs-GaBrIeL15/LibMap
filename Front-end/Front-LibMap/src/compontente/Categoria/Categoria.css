@@ -1,0 +1,49 @@
+.Categoria {
+  color: var(--cor-secundaria);
+  display: flex;
+  width: 98%;
+  font-size: 2vw;
+  margin-left: 1vw;
+}
+
+.NomeEvento {
+  color: var(--cor-primaria);
+  display: flex;
+  width: 98%;
+  font-size: 2vw;
+  margin-left: 1vw;
+}
+
+.Livros {
+  color: var(--cor-secundaria);
+  display: flex;
+  
+}
+
+.CategoriaDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-x: auto;
+}
+
+@media (orientation: portrait) {
+  
+  .NomeEvento {
+    color: var(--cor-primaria);
+    display: flex;
+    width: 98%;
+    font-size: 2vh;
+    margin-left: 1vh;
+  }
+
+  .Categoria {
+    color: var(--cor-secundaria);
+    display: flex;
+    width: 98%;
+    font-size: 2vh;
+    margin-left: 1vh;
+  }
+
+
+}

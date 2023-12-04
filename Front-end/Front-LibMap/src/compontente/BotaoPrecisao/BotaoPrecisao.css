@@ -1,0 +1,111 @@
+
+
+.BotaoPrecisao {
+  width: 12vw;
+  height: 12vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--cor-primaria);
+  position: fixed;
+  border-radius: 100%;
+  z-index: 1;
+  left: 85vw;
+  top: 75vh;
+}
+
+.BotaoPrecisao .Lupa {
+  background-image: url("C:/Users/gabi1/libmap/public/Imagens/Lupa.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  min-width: 5vw;
+  min-height: 5vw;
+}
+
+.BotaoPrecisao .ida {
+  background-image: url("C:/Users/gabi1/libmap/public/Imagens/SetaLado.svg");
+  background-repeat: no-repeat;
+  background-size: 300%;
+  background-position: center;
+  min-width: 3vw;
+  min-height: 5vw;
+}
+
+.BotaoPrecisao .volta {
+  background-image: url("C:/Users/gabi1/libmap/public/Imagens/SetaLado.svg");
+  background-repeat: no-repeat;
+  background-size: 300%;
+  background-position: center;
+  min-width: 3vw;
+  min-height: 5vw;
+  rotate: 180deg;
+}
+
+.BotaoPrecisao button {
+  min-height: 5vw;
+  min-width: 3vw;
+  max-width: 3vw;
+  max-height: 5vw;
+  display: flex;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+@media (orientation: portrait) {
+
+  .BotaoPrecisao {
+    width: 12vh;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-primaria);
+    position: fixed;
+    border-radius: 100%;
+    z-index: 1;
+    left: 75vw;
+    top: 85vh;
+  }
+  
+  .BotaoPrecisao .Lupa {
+    background-image: url("C:/Users/gabi1/libmap/public/Imagens/Lupa.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-width: 5vh;
+    min-height: 5vh;
+  }
+  
+  .BotaoPrecisao .ida {
+    background-image: url("C:/Users/gabi1/libmap/public/Imagens/SetaLado.svg");
+    background-repeat: no-repeat;
+    background-size: 300%;
+    background-position: center;
+    min-width: 3vh;
+    min-height: 5vh;
+  }
+  
+  .BotaoPrecisao .volta {
+    background-image: url("C:/Users/gabi1/libmap/public/Imagens/SetaLado.svg");
+    background-repeat: no-repeat;
+    background-size: 300%;
+    background-position: center;
+    min-width: 3vh;
+    min-height: 5vh;
+    rotate: 180deg;
+  }
+  .BotaoPrecisao button {
+    min-height: 5vh;
+    min-width: 3vh;
+    max-width: 3vh;
+    max-height: 5vh;
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    border: none;
+  }
+}

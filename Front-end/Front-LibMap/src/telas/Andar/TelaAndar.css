@@ -1,0 +1,18 @@
+.EstanteAndar {
+  display: flex;
+  flex-direction: column;
+  border: 1vh solid var(--cor-secundaria);
+  border-bottom: none;
+  width: 50vh;
+  background-color: transparent;
+  margin-top: 4vh;
+  height: 85vh;
+  padding-bottom: 2vh;
+}
+
+.TelaAndar {
+  display: flex;
+  width: 100vw;
+  height: 100%;
+  justify-content: center;
+}

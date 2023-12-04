@@ -1,0 +1,34 @@
+.disponivel {
+  height: 3vh;
+  width: 3vh;
+  background-color: green; 
+  border-radius: 100px;
+  padding-left: 10px;
+}
+.indisponivel {
+  height: 3vh;
+  width: 3vh;
+  background-color: red;
+  border-radius: 100px;
+  padding-left: 10px;
+}
+h1 {
+  display: flex;
+  align-items: center;
+}
+@media (orientation: portrait) {
+  .disponivel {
+    height: 5vw;
+    width: 5vw;
+    background-color: green;
+    border-radius: 100px;
+    padding-left: 10px;
+  }
+  .indisponivel {
+    height: 5vw;
+    width: 5vw;
+    background-color: red;
+    border-radius: 100px;
+    padding-left: 10px;
+  }
+}

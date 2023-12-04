@@ -1,0 +1,12 @@
+.LivroEstante {
+  height: 75vh;
+  min-width: 12vh;
+  background-color: var(--cor-secundaria);
+  border-radius: 5px;
+}
+
+.LivroEstanteEscolhido {
+  height: 75vh;
+  min-width: 12vh;
+  background-color: var(--cor-primaria);
+}

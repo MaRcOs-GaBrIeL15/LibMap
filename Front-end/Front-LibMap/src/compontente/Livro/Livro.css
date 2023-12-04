@@ -1,0 +1,62 @@
+.Livro {
+  min-width: 30vh;
+  height: 30vh;
+  text-align: center;
+}
+
+.Livro img {
+  max-width: 100%;
+  height: 75%;
+}
+
+.Livro .nome {
+  margin: 0.5vh;
+  font-size: 1.5vh;
+}
+
+.Livro .Caracteristica {
+  margin: 0.5vh;
+  font-size: 1.3vh;
+  color: var(--cor-primaria);
+}
+h1 {
+  word-wrap: break-word;
+}
+.nomes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Muito ruim de ver não tem como :)
+@media (orientation: portrait) {
+  .Livro {
+    min-width: 30vw;
+    height: 30vw;
+    text-align: center;
+  }
+  
+  .Livro img {
+    max-width: 100%;
+    height: 75%;
+  }
+  
+  .Livro .nome{
+    margin: 0.5vw;
+    font-size: 1.5vw;
+  }
+  
+  .Livro .Caracteristica {
+    margin: 0.5vw;
+    font-size: 1.3vw;
+    color: var(--cor-primaria);
+  }
+  h1 {
+    word-wrap: break-word;
+  }
+  .nomes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+} */

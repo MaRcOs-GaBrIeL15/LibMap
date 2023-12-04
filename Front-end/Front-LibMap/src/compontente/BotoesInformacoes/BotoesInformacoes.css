@@ -1,0 +1,37 @@
+.Botoes {
+  margin: 0vh 0vh;
+  gap: 3vh;
+  display: flex;
+  justify-content: center;
+}
+
+.Botoes button {
+  border: none;
+  border-radius: 300vw;
+  background-color: var(--cor-primaria);
+  background-position: center;
+  background-size: 30%;
+  background-repeat: no-repeat;
+  width: 45%;
+  height: 10vh;
+  font-size: 3vw;
+  color: var(--cor-secundaria);
+}
+
+@media (orientation: portrait) {
+
+  .Botoes button {
+    border: none;
+    border-radius: 300vw;
+    background-color: var(--cor-primaria);
+    background-position: center;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    width: 45%;
+    height: 15vw;
+    font-size: 5vw;
+    color: var(--cor-secundaria);
+  }
+
+
+}

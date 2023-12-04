@@ -1,0 +1,12 @@
+.PosicaoEstante{
+    display: flex;
+    align-items: center;
+    margin-top: 4vh;
+    padding-left: 1vh;
+    border-bottom: 1.5vh solid var(--cor-secundaria);
+    border-top: 1.5vh solid var(--cor-secundaria);
+    height: 80vh;
+    gap: 1vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
