@@ -34,7 +34,7 @@ function Livro(props) {
         navigate("book", { state: { data: props.livro } });
       }}
     >
-      <img src={ props.livro.image !== "" ? props.livro.image : "../../Imagens/LivroGenerico.png" } alt="Imagem deu errado amigo"/>
+      <img src={ props.livro.image !== "" ? props.livro.image : "../../Imagens/LivroGenerico.png" } alt=" "/>
       <div className="nomes">
         <h1 className="nome">{nome(props.livro.name)}</h1>
 

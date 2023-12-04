@@ -11,6 +11,7 @@ import org.springframework.stereotype.Component;
 
 import br.ifsul.entity.Book;
 import br.ifsul.services.BookService;
+import jakarta.annotation.PostConstruct;
 
 @Component
 public class GeneralComponent {
@@ -32,7 +33,7 @@ public class GeneralComponent {
 	public void exec() {
 
 		Book book = new Book();
-		String filePath = "C:/Users/gabi1/Downloads/seila.xlsx";
+		String filePath = "C:/Users/gabi1/Downloads/CadastraLivro.xlsx";
 
 		try (FileInputStream fileExcel = new FileInputStream(filePath)) {
 
@@ -41,7 +42,7 @@ public class GeneralComponent {
 			Sheet sheet = workbook.getSheetAt(0);
 
 			for (Row line : sheet) {
-				
+
 				if (line.getRowNum() != 0) {
 
 					boolean available = false;
@@ -50,7 +51,7 @@ public class GeneralComponent {
 					if (stringLine.equalsIgnoreCase("t") || stringLine.equalsIgnoreCase("true")) {
 						available = true;
 					}
-					
+
 					book.setName(line.getCell(0).getStringCellValue());
 					book.setAuthor(line.getCell(1).getStringCellValue());
 					book.setAttribute(line.getCell(2).getStringCellValue());
@@ -82,4 +83,11 @@ public class GeneralComponent {
 
 	}
 
+	// @PostConstruct
+	public void exec1() {
+		Book seila = bookService.getById(8);
+		seila.setEvent("");
+		bookService.update(8, seila);
+
+	}
 }

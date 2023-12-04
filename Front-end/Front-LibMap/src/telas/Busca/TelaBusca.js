@@ -100,23 +100,15 @@ function TelaBusca() {
     ) {
       listaTopicos.push(livro.topic);
     }
-
-    for (let valor of listaTopicos) {
-      if (Evento && !(
-        (typeof valor === "object" && valor.nome === livro.event) ||
-        livro.event === "" ||
-        livro.event == null ||
-        livro.event === undefined
-      )) {
+        
+      if (Evento && livro.event && !listaTopicos.some( obj => typeof obj === "object" && obj.nome === livro.event)) {
+        
         listaTopicos.unshift({ nome: livro.event });
-        break;
       }
-      break;
-    }
     
   });
 
-  console.log(listaTopicos);
+  
 
   return (
     <div>

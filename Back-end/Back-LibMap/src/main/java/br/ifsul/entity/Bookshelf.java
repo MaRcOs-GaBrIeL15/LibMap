@@ -63,8 +63,11 @@ public class Bookshelf {
 
 	@Override
 	public String toString() {
-		return "Bookshelf [id=" + id + ", floor=" + floor + ", height=" + height + ", width=" + width + ", rotate="
-				+ rotate + ", X=" + X + ", Y=" + Y + ", library=" + library + ", Books=" + Books + "]";
+		return "Bookshelf [id=" + id + ", identifier=" + identifier + ", floor=" + floor + ", height=" + height
+				+ ", width=" + width + ", rotate=" + rotate + ", X=" + X + ", Y=" + Y + ", border=" + border
+				+ ", library=" + library + ", Books=" + Books + "]";
 	}
+
+	
 
 }
